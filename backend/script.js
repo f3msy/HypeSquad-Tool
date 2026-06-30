@@ -436,7 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         const statusElement = document.getElementById('status');
         if(!statusElement.textContent) {
-            statusElement.textContent = 'Enter your Discord token to begin.';
+            statusElement.textContent = 'Login to your Discord account to begin.';
             statusElement.className = 'status-message info show';
             
             setTimeout(() => {
