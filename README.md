@@ -2,9 +2,9 @@
 
 An Electron application to manage your Discord HypeSquad Badges.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-**Use at your own risk.** Abusing Discord API endpoints is against Discord's Terms of Service and may result in a permanent ban of your account.
+**Use at your own risk.** Abusing Discord API endpoints is against [Discord's Terms of Service](https://discord.com/terms) and may result in a permanent ban of your account.
 
 ## Installation
 
