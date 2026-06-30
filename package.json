@@ -2,7 +2,7 @@
   "name": "discord-hypesquad-tool",
   "version": "1.0.0",
   "description": "A modern web application that lets you easily manage your Discord HypeSquad badges.",
-  "main": "main.js",
+  "main": "backend/main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder",

@@ -13,10 +13,10 @@ function createWindow() {
             nodeIntegration: false,
             contextIsolation: true
         },
-        icon: path.join(__dirname, 'images/icon.png')
+        icon: path.join(__dirname, '../images/icon.png')
     });
 
-    main.loadFile('index.html');
+    main.loadFile(path.join(__dirname, '../frontend/index.html'));
     main.webContents.setWindowOpenHandler(({ url }) => {
         if (url.startsWith('http')) {
             require('electron').shell.openExternal(url);
