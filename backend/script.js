@@ -21,14 +21,12 @@ class hypesquadTool {
             document.querySelectorAll('.badge-option').forEach(card => {
                 card.addEventListener('mousemove', (e) => {
                     const rect = card.getBoundingClientRect();
-                    const x = e.clientX - rect.left;
                     const y = e.clientY - rect.top;
                     
-                    const centerX = rect.width / 2;
                     const centerY = rect.height / 2;
                     
                     const rotateX = ((y - centerY) / centerY) * -10;
-                    const rotateY = ((x - centerX) / centerX) * 10;
+                    const rotateY = 10;
                     
                     gsap.to(card, {
                         rotateX: rotateX,
@@ -175,7 +173,7 @@ class hypesquadTool {
 
         if (badgeIcon) {
             const badgeImg = document.createElement('img');
-            badgeImg.src = `images/${badgeIcon}`;
+            badgeImg.src = `../images/${badgeIcon}`;
             badgeImg.className = 'current-badge-icon';
             badgeImg.title = 'Current HypeSquad Badge';
             usernameEl.appendChild(badgeImg);
