@@ -1,4 +1,4 @@
-# HypeSquad Tool
+# HypeSquader
 
 An Electron application to manage your Discord HypeSquad Badges.
 
@@ -10,7 +10,7 @@ An Electron application to manage your Discord HypeSquad Badges.
 
 1. Download this repository and extract it
 
-2. Run `install.bat` (will auto-delete after installation)
+2. Run `install.bat` (will delete itself after installation)
 
 ## Running the Electron
 
