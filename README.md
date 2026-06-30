@@ -12,7 +12,7 @@ An Electron application to manage your Discord HypeSquad Badges.
 
 2. Run `install.bat` (will auto-delete after installation)
 
-## Running the Application
+## Running the Electron
 
 **Run this file**
 ```bash
