@@ -17,7 +17,7 @@
   "license": "ISC",
   "build": {
     "appId": "com.f3msy.discordhypesquadtool",
-    "productName": "Discord HypeSquad Tool",
+    "productName": "HypeSquader - Discord HypeSquad Tool",
     "directories": {
       "output": "dist"
     },
@@ -33,7 +33,7 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "Discord HypeSquad Tool"
+      "shortcutName": "HypeSquader - Discord HypeSquad Tool"
     }
   },
   "devDependencies": {
